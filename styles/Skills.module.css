@@ -1,0 +1,32 @@
+.skillfront {
+  background-image: /*linear-gradient(to right, rgb(0 0 0/0.6), rgb(0 0 0/0.6))*/ url(../public/img/Back_skillfront.png);
+  background-size: cover;
+  background-position: right top;
+}
+@media (min-width: 360px) {
+  .skillfront {
+    padding-bottom: 2rem;
+  }
+}
+.cuadro {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto {
+  text-align: left;
+  padding-left: 6%;
+  font-size: 1rem;
+  padding-top: 1%;
+  max-width: 90%;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+@media (min-width: 1024px) {
+  .texto {
+    padding-top: 5%;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,42 @@
+.header {
+  background-image: linear-gradient(to right, rgb(0 0 0/0.3), rgb(0 0 0/0.3)),
+    url(../public/img/Back_header.png);
+  background-size: cover;
+  background-position: 50%;
+}
+@media (max-width: 640px) {
+  .header {
+    background-image: linear-gradient(to right, rgb(0 0 0/0.8), rgb(0 0 0/0.8)),
+      url(../public/img/Back_header.png);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 10;
+    width: 100%;
+  }
+}
+.header a {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.header a:hover {
+  background-color: rgb(39, 143, 228);
+}
+
+.animacion {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -15%;
+    opacity: 0%;
+  }
+
+  to {
+    margin-top: 18.5%;
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+:root {
+  --fuente-principal: "Open Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  background: rgb(0, 118, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 118, 191, 100) 0%,
+    rgba(9, 9, 121, 100) 90%
+  );
+}

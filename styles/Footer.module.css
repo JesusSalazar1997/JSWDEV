@@ -1,0 +1,17 @@
+.email_cuadro {
+  position: relative;
+}
+
+.email {
+  position: absolute;
+  top: 35%;
+  left: 90%;
+}
+
+@media (min-width: 720px) {
+  .email {
+    position: absolute;
+    top: 34%;
+    left: 94%;
+  }
+}

@@ -1,0 +1,10 @@
+.columnas {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .columnas {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1.3fr;
+  }
+}
